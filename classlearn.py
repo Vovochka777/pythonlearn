@@ -11,13 +11,13 @@ class Cat(Animals):
         self.name = name
 
 
-Marusya = Cat("Marusya")
+Tom = Cat("Marusya")
 
-print(Marusya.name)  # Marusya
-del Marusya.name
-print(Marusya.name)  # Cats
+print(Tom.name)  # Marusya
+del Tom.name
+print(Tom.name)  # Cats
 del Cat.name
-print(Marusya.name)  # Animals
+print(Tom.name)  # Animals
 
 class EmptyInside:
     pass
